@@ -1,7 +1,5 @@
-// Select all plus buttons
 const plusButtons = document.querySelectorAll(".fa-plus-circle");
 
-// Increase quantity when clicking +
 plusButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
@@ -18,10 +16,8 @@ plusButtons.forEach(function(button) {
 
 });
 
-// Select all minus buttons
 const minusButtons = document.querySelectorAll(".fa-minus-circle");
 
-// Decrease quantity when clicking -
 minusButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
@@ -39,10 +35,8 @@ minusButtons.forEach(function(button) {
 
 });
 
-// Select all delete buttons
 const deleteButtons = document.querySelectorAll(".fa-trash-alt");
 
-// Delete product when clicking the trash icon
 deleteButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
@@ -55,10 +49,8 @@ deleteButtons.forEach(function(button) {
 
 });
 
-// Select all heart buttons
 const heartButtons = document.querySelectorAll(".fa-heart");
 
-// Like or unlike a product
 heartButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
@@ -73,7 +65,6 @@ heartButtons.forEach(function(button) {
 
 });
 
-// Calculate total price
 function calculateTotal() {
     let total = 0;
 
